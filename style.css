@@ -1,0 +1,74 @@
+body
+{
+  font-family: Helvetica;
+  background-color: #FAF0D7;
+  padding: 25px;
+  text-align: center;
+}
+
+h1, h2, h3
+{
+  font-family: Arial;
+  color: #071952;
+}
+
+li
+{
+  display: inline;
+  }
+
+ul
+{
+  padding: 0;
+   }
+
+a
+{
+  text-decoration: none;
+  color: #8CC0DE;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+   }
+
+#profile-pic
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  }
+
+.card
+{
+  background-color: white;
+  padding: 15px;
+  width: 500px;
+  margin: 15px auto;
+  border-radius: 15px;
+    }
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
